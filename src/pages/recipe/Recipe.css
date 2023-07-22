@@ -1,5 +1,41 @@
-.page {
+.page, 
+.row, 
+.col {
   display: flex;
-  flex-direction: column;
   gap: var(--gap);
+}
+
+.page, 
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.row > .col {
+  flex-grow: 1;
+}
+
+.page-header .image, 
+.page-content .main {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .page-header .image, 
+  .page-content .main {
+    width: auto;
+  }
+
+  .page-header .image .box, 
+  .page-content .main .box {
+    height: 100%;
+  }
+
+  .page-header .page-title, 
+  .page-content .widget-left {
+    order: -1
+  }
 }

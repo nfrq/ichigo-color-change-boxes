@@ -1,13 +1,14 @@
 import Header from "../../components/recipe/RecipeHeader";
 import Content from "../../components/recipe/RecipeContent";
-import './Recipe.css'
+import { Page } from "../../components/shared/Page";
+import './Recipe.css';
 
 function Recipe() {
   return (
-    <div className='page'>
+    <Page>
       <Header />
       <Content />
-    </div>
+    </Page>
   );
 }
 
