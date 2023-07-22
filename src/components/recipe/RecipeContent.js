@@ -7,15 +7,15 @@ function RecipeContent() {
     <PageContent>
       <Row>
         <Column className='main'>
-          <Box label={7} color='yellow' />
+          <Box label={7} />
         </Column>
         <Column className='widget-left'>
-          <Box label={5} color='yellow' />
-          <Box label={6} color='yellow' />
+          <Box label={5} />
+          <Box label={6} />
         </Column>
         <Column className='widget-right'>
-          <Box label={8} color='yellow' />
-          <Box label={9} color='yellow' />
+          <Box label={8} />
+          <Box label={9} />
         </Column>
       </Row>
     </PageContent>

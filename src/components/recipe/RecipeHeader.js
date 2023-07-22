@@ -7,19 +7,19 @@ function RecipeHeader() {
     <PageHeader>
       <Row>
         <Column className='image'>
-          <Box label={1} color='red' />
+          <Box label={1} />
         </Column>
         <Column>
           <Row className='widget'>
             <Column>
-              <Box label={3} color='red' />
+              <Box label={3} />
             </Column>
             <Column>
-              <Box label={4} color='red' />
+              <Box label={4} />
             </Column>
           </Row>
           <PageTitle>
-            <Box label={2} color='red' />
+            <Box label={2} />
           </PageTitle>
         </Column>
       </Row>
