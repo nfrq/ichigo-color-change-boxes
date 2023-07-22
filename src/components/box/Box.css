@@ -1,0 +1,14 @@
+.box {
+  min-height: 50px;
+  position: relative;
+  color: white;
+}
+.box > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .25);
+}

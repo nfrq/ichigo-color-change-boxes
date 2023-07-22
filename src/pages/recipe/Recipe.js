@@ -1,5 +1,7 @@
+import Box from '../../components/box/Box';
+
 function Recipe() {
-  return "This is recipe page";
+  return <Box label={1} color='red' />;
 }
 
 export default Recipe;
